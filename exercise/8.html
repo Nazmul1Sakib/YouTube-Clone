@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html>
+    <head>
+<style>
+.Name{
+display: block;
+margin-bottom: 5px;
+}
+.Email{
+display: block;
+margin-top: 5px;
+}
+
+.survey{
+    width: 500px;
+}
+.survey-text{
+    display: inline-block;
+    width: 200px;
+    position: relative;
+}
+.survey-button{
+    display: inline-block;
+    position: relative;
+    margin-bottom: 32px;
+    vertical-align: middle;
+}
+.google{
+width: 800px;
+}
+.google-logo{
+    margin-top:200px;
+    margin-bottom:20px;
+}
+
+.bar{
+  margin:0 auto;
+  width:575px;
+  border-radius:30px;
+  border:1px solid #dcdcdc;
+}
+.bar:hover{
+  box-shadow: 1px 1px 8px 1px #dcdcdc;
+}
+.bar:focus-within{
+  box-shadow: 1px 1px 8px 1px #dcdcdc;
+  outline:none;
+}
+
+.google-searchbar{
+  height:45px;
+  border:none;
+  width:500px;
+  font-size:16px;
+  outline: none;
+}
+.google-searchbar::placeholder{
+padding-left: 15px;
+}
+
+.sign-up-form{
+    width: 700px;
+    margin-top: 50px;
+}
+.sign-up-bar{
+margin-bottom: 15px;
+}
+.first-name{
+  width: 133px;
+  height: 36px;
+  border-radius:7px;
+  border:1px solid #dcdcdc80;
+  margin-bottom: 5px;
+  margin-right: 2px;
+}
+.first-name::placeholder , .last-name::placeholder ,
+.email2::placeholder{
+padding-left: 10px;
+}
+.last-name{
+width: 133px;
+  height: 36px;
+  border-radius:7px;
+  border:1px solid #dcdcdc91;
+}
+.email2{
+    display: block;
+    width: 280px;
+  height: 36px;
+  border-radius:7px;
+  border:1px solid #dcdcdc;
+}
+.sign-up-button{
+    width: 290px;
+    height: 36px;
+    background-color: rgba(32, 123, 226, 0.925);
+    color: white;
+    border: none;
+    border-radius: 7px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.uber{
+    width: 800px;
+    margin-top: 50px;
+}
+.heading{
+ font-size: x-large;
+ font-family: Arial, Helvetica, sans-serif;
+}
+.location, .destination{
+    display: block;
+    width: 400px;
+    height: 32px;
+    background-color: rgba(236, 233, 233, 0.733);
+    border: none;
+    margin-bottom: 5px;
+}
+.location::placeholder , .destination::placeholder{
+    padding-left: 10px;
+}
+.Request{
+    margin-top: 20px;
+    width: 100px;
+    height: 32px;
+    color: white;
+    background-color: black;
+    border: none;
+    margin-right: 20px;
+    cursor: pointer;
+}
+.Schedule{
+    width: 150px;
+    height: 32px;
+    border: none;
+    background-color: rgba(236, 233, 233, 0.733);
+    cursor: pointer;
+}
+
+</style>
+
+
+    </head>
+    <body>
+        <input class="Name" type="text" placeholder="Name">
+        <input class="Email" type="email" placeholder="Email">
+    
+<div class="survey">
+
+    <div class="survey-text"><p>Thanks for chatting with our 
+        customer support. Would you 
+        like to take our quick survey?
+    </p></div>
+    <div class="survey-button">
+         <button >Yes</button>
+         <button >No</button>
+    </div>
+
+</div>
+
+<div class="google">
+<div class="google-logo">
+    <img class="logo" src="img/googlelogo.png" alt="Error">
+</div>
+<div class="bar">
+    <input class="google-searchbar"
+    type="search" placeholder="Search Google or type a URL">
+</div>
+</div>
+
+<div class="sign-up-form">
+<div class="sign-up-bar">
+    <input class="first-name" type="text" placeholder="First name">
+    <input class="last-name" type="text" placeholder="Last name">
+    <input class="email2" type="email" placeholder="Email">
+</div>
+
+<div>
+    <button class="sign-up-button">Sign Up</button>
+</div>
+</div>
+  
+<div class="uber">
+    <div class="heading">
+        <p>Request a ride now</p>
+    </div>
+<div>
+    <input class="location" type="text" placeholder="Enter pickup location">
+     <input class="destination" type="text" placeholder="Enter destination">
+</div>
+<div>
+    <button class="Request">Request now</button>
+    <button class="Schedule">Schedule for later</button>
+</div>
+</div>
+ 
+    
+    
+    </body>
+</html>

@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html >
+<head>
+   <style>
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 10px;
+    display: inline-block;
+}
+.bar{
+    width: 300px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 545;
+    margin-top: 20px;
+    margin-left: 50px;
+    margin-bottom: 15px;
+}
+.profile-pic{
+    width: 40px;
+    height: 40px;
+    border-radius: 25px;
+}
+.follow-btn{
+    width: 70px;
+    height: 30px;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    background-color: rgba(25, 105, 255, 0.76);
+}
+.profile-info{
+    width: 200px;
+    display: grid;
+    position: relative;
+    text-decoration: row;
+}
+.name{
+    font-weight: bold;
+    margin-top: 5px;
+}
+.info{
+    font-size: small;
+    color: grey;
+}
+.container{
+    margin-top: 50px;
+    border-width: 1px;
+  border-style: solid;
+  border-color: rgb(200, 200, 200);
+  width: 300px;
+  border-radius: 6px;
+}
+.flexbox{
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   align-items: center;
+   padding-top: 6px;
+  padding-bottom: 6px;
+  padding-left: 12px;
+  padding-right: 12px;
+}
+
+.n{
+    color: white;
+    background-color: rgb(49, 109, 245); 
+    padding-top: 3px;
+  padding-bottom: 3px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 20px;
+  font-size: 14px;
+  font-weight: bold;
+}
+.head{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+   align-items: center;
+   background-color: rgb(120, 82, 178);
+   padding-left: 15px;
+  padding-right: 15px;
+  margin-top: 50px;
+}
+.div{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.home-link{
+    font-weight: bold;
+    color: white;
+}
+.search{
+    width: 500px;
+    border: none;
+    margin-top: 12px;
+  margin-bottom: 12px;
+  height: 30px;
+  border-radius: 15px;
+  padding-left: 20px;
+}
+button {
+  background-color: rgb(120, 82, 178);
+   color: white;
+   font-size: 16px;
+   border-width: 1px;
+  border-style: solid;
+  border-color: white;
+  border-radius: 2px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+   </style>
+</head>
+<body>
+ <div class="bar">
+    <div>
+        <img class="profile-pic"
+        src="img/cat.jpg" alt="">
+    </div>
+    <div class="profile-info">
+        <p class="name">oliver</p>
+        <p class="info">the cat</p>
+        <p class="info">Popular</p>
+    </div>
+     <button class="follow-btn">Follow</button>
+    </div>  
+    <div class="bar">
+        <div>
+            <img class="profile-pic"
+            src="img/cat4.jpeg" alt="">
+        </div>
+        <div class="profile-info">
+            <p class="name">Mimi</p>
+            <p class="info">sleepy cat</p>
+            <p class="info">Popular</p>
+        </div>
+         <button class="follow-btn">Follow</button>
+        </div> 
+        <div class="bar">
+            <div>
+                <img class="profile-pic"
+                src="img/cat3.jpeg" alt="">
+            </div>
+            <div class="profile-info">
+                <p class="name">Rex</p>
+                <p class="info">Happy cat</p>
+                <p class="info">Popular</p>
+            </div>
+             <button class="follow-btn">Follow</button>
+            </div>  
+<div class="container">
+<div class="flexbox">
+<div>Home</div>
+<div class="n">14</div>
+</div>
+<div class="flexbox">
+<div>Notifications</div>
+<div class="n">3</div>
+</div>
+<div class="flexbox">
+    <div>Messages</div>
+    <div class="n">5</div>
+</div>
+</div>
+
+<div class="head">
+    <div class="home-link">Home</div>
+        <input class="search" type="search" placeholder="Search">
+<button> Download
+    </button>
+</div>
+
+
+</body>
+</html>
